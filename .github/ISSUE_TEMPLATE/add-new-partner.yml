@@ -1,6 +1,6 @@
 name: 🤝 Become a Partner
 description: Become an OpenSearch Partner
-title: "[PARTNER] <title>"
+title: "[PARTNER] {{ INSERT Your Companies Name INSERT }} "
 labels: ['Partner/new-Partner, untriaged']
 projects: ["testProject/Partners"]
 
@@ -9,12 +9,14 @@ projects: ["testProject/Partners"]
 body:
   - type: markdown
     attributes:
-      value: "## Thank you for becoming an OpenSearch Partner! 🎉"
+      value: "## Become an OpenSearch Partner! 🎉"
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this new partner request.
+        Please take the time to fill out this new partner request.
         We will review your submission and get back to you as soon as possible.
+
+
   
   - type: input
     attributes:
@@ -48,14 +50,31 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: markdown
     attributes:
-      label: Name of relevant product(s) or service for OpenSearch audience
-      description: A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
-      placeholder: We offer...
+      value: "### Company Contact 🎉"
+  - type: markdown
+    attributes:
+      value: |
+        who should we reach out to in case we need help updating your companies profile? 
+        This information is not displayed on the site and never shared with the public.
+
+  - type: input
+    attributes:
+      label: Name
+      placeholder: Jon Smith
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Email
+      placeholder: JonSmith@example.com
     validations:
       required: true
 
+
+
+      
   # - type: dropdown
   #   attributes:
   #     label: OpenSearch Specialty 
