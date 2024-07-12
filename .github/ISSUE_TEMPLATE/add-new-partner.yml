@@ -56,13 +56,13 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    attributes:
-      label: OpenSearch Specialty 
-      description: Where can customers contact you? 
-      placeholder: Info@example.com
-    validations:
-      required: true
+  # - type: dropdown
+  #   attributes:
+  #     label: OpenSearch Specialty 
+  #     description: Where can customers contact you? 
+  #     placeholder: Info@example.com
+  #   validations:
+  #     required: true
 
 
   - type: textarea
@@ -72,17 +72,7 @@ body:
     validations:
       required: false
   
-  - type: textarea
-    attributes:
-      label: To Reproduce
-      description: Steps to reproduce the behavior.
-      value: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
-    validations:
-      required: false
+
 
   - type: textarea
     attributes:
