@@ -153,9 +153,9 @@ body:
         Please provide the following assets.
         Either provide a URL to the assets or upload them as a comment to this issue.
 
-  - type: markdown
-    attributes:
-      value: "![Logo-Example](https://www.example.png)"
+  # - type: markdown
+  #   attributes:
+  #     value: "![Logo-Example](https://www.example.png)"
       # value: "![Logo-Example](https://www.example.png){: width='200px' }"
   
   - type: input
