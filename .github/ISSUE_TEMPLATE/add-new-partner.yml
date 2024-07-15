@@ -1,6 +1,6 @@
 name: 🤝 Become a Partner
 description: Become an OpenSearch Partner
-title: "[PARTNER] {{ INSERT Your Companies Name INSERT }} "
+title: "[PARTNER] {{ Company name }} "
 labels: ['Partner/new-Partner, untriaged']
 projects: ["testProject/Partners"]
 
@@ -9,7 +9,7 @@ projects: ["testProject/Partners"]
 body:
   - type: markdown
     attributes:
-      value: "## Become an OpenSearch Partner! 🎉"
+      value: "# Become an OpenSearch Partner! 🎉"
   - type: markdown
     attributes:
       value: |
@@ -52,11 +52,11 @@ body:
 
   - type: markdown
     attributes:
-      value: "### Company Contact 🎉"
+      value: "# Internal Contact Information"
   - type: markdown
     attributes:
       value: |
-        who should we reach out to in case we need help updating your companies profile? 
+        Who should we reach out to in case we need help updating your companies profile? 
         This information is not displayed on the site and never shared with the public.
 
   - type: input
@@ -74,7 +74,7 @@ body:
 
 
 
-      
+
   # - type: dropdown
   #   attributes:
   #     label: OpenSearch Specialty 
