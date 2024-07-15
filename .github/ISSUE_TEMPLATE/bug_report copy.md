@@ -1,8 +1,8 @@
 ---
-name: Partner Update
+name: 🤝 Partner Update
 about: I am an OpenSearch partner and wish to update my information
-title: ''
-labels: ''
+title: "[PARTNER] update {{ Company name }} "
+labels: ['Partner/update-Partner, untriaged']
 assignees: ''
 
 ---
@@ -15,6 +15,7 @@ A clear and concise description of what the bug is.
 **What would you like to change?**
 Clearly describe what aspects you would like to change about your Partner profile. 
 The more detail the better. 
+
 
 
 **Screenshots**
