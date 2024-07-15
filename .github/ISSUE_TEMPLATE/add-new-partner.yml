@@ -82,8 +82,8 @@ body:
         - Africa
         - Australia
       default: 0
-    # validations:
-    #   required: true
+      validations:
+        required: true
   
   
   # - type: markdown
