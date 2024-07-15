@@ -7,15 +7,15 @@ assignees: ''
 
 ---
 
-**### Org Name**
+**Org Name**
 A clear and concise description of what the bug is.
 
-**### What would you like to change?**
+**What would you like to change?**
 Clearly describe what aspects you would like to change about your Partner profile. 
 The more detail the better. 
 
 
-**### Screenshots**
+**Screenshots**
 If applicable, add screenshots to help explain your problem.
 
 **Additional context**
