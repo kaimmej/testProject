@@ -25,10 +25,9 @@ body:
       placeholder: Example Inc.
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
       label: Main office location
-      description: Main office location or address (if applicable)
       placeholder: City, Country
     validations:
       required: true   
@@ -77,7 +76,29 @@ body:
     validations:
       required: false
 
-      
+  - type: markdown
+    attributes:
+      value: "# What is your product and specialty? "
+  - type: markdown
+    attributes:
+      value: |
+        What does your organization specialize in? What products and services do you offer to the OpenSearch community?
+  - type: dropdown
+    attributes:
+      label: OpenSearch Specialty
+      multiple: true
+      options:
+        - Global
+        - North America
+        - South America
+        - Europe
+        - Asia Pacific
+        - Middle East
+        - Africa
+        - Australia
+      default: 0
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Product description
