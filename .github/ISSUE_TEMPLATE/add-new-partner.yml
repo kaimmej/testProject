@@ -202,7 +202,6 @@ body:
   - type: textarea
     attributes:
       label: Blog posts
-      placeholder: [Post 1]
     validations:
       required: false
 
