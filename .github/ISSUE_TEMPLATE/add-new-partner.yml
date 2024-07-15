@@ -170,6 +170,7 @@ body:
     validations:
       required: true
 
+
   - type: markdown
     attributes:
       value: "## Social Media"
@@ -191,6 +192,13 @@ body:
       placeholder: /facebook.com/example
     validations:
       required: false
+  - type: input
+    attributes:
+      label: Github 
+      placeholder: /github.com/example
+    validations:
+      required: false 
+  
   
   - type: markdown
     attributes:
