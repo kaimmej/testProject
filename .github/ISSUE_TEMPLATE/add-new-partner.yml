@@ -120,49 +120,49 @@ body:
       default: 0
     validations:
       required: true 
-  # - type: textarea
-  #   attributes:
-  #     label: Product description
-  #     description:A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
-  #     placeholder: We offer...
-  #   validations:
-  #     required: true
-  # - type: dropdown
-  #   attributes:
-  #     label: OpenSearch Specialty
-  #     multiple: true
-  #     options:
-  #       - Search
-  #       - Observability
-  #       - Security
-  #       - Logs
-  #       - Analytics
-  #       - Machine Learning & AI
-  #       - GenAI
-  #     default: 0
-  #   validations:
-  #     required: true
+  - type: textarea
+    attributes:
+      label: Product description
+      description: A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
+      placeholder: We offer...
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: OpenSearch Specialty
+      multiple: true
+      options:
+        - Search
+        - Observability
+        - Security
+        - Logs
+        - Analytics
+        - Machine Learning & AI
+        - GenAI
+      default: 0
+    validations:
+      required: true
 
-  # - type: markdown
-  #   attributes:
-  #     value: "## Logo and Branding "
-  # - type: markdown
-  #   attributes:
-  #     value: |
-  #       We use the logo and branding to create your partner page.
-  #       Please provide the following assets.
+  - type: markdown
+    attributes:
+      value: "## Logo and Branding "
+  - type: markdown
+    attributes:
+      value: |
+        We use the logo and branding to create your partner page.
+        Please provide the following assets.
 
   # - type: markdown
   #   attributes:
   #     value: "<img src="Assets/ExampleLogo.png" alt="Logo-Example" width="200"/>"
   
-  # - type: input
-  #   attributes:
-  #     label: Logo URL
-  #     description: Please provide a URL to your organization's logo.
-  #     placeholder: https://www.example.com/logo.png
-  #   validations:
-  #     required: true
+  - type: input
+    attributes:
+      label: Logo URL
+      description: Please provide a URL to your organization's logo.
+      placeholder: https://www.example.com/logo.png
+    validations:
+      required: true
 
   
   # - type: markdown
