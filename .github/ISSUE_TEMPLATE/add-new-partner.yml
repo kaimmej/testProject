@@ -154,7 +154,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "<img src="Assets/ExampleLogo.png" alt="Logo-Example" width="200"/>"
+      value: "<img src="https://www.example.png" alt="Logo-Example" width="200"/>"
   
   - type: input
     attributes:
