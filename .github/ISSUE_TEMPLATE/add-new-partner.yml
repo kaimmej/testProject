@@ -82,7 +82,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        What does your organization specialize in? What products and services do you offer to the OpenSearch community?
+        What does your organization specialize in? 
+        What products and services do you offer to the OpenSearch community?
   - type: dropdown
     attributes:
       label: OpenSearch Specialty
@@ -99,13 +100,7 @@ body:
       default: 0
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: Product description
-      description: A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
-      placeholder: We offer ...
-    validations:
-      required: false
+
 
 
   
