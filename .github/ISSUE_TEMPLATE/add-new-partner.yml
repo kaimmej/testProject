@@ -156,13 +156,13 @@ body:
   #   attributes:
   #     value: "<img src="Assets/ExampleLogo.png" alt="Logo-Example" width="200"/>"
   
-  - type: input
-    attributes:
-      label: Logo URL
-      description: Please provide a URL to your organization's logo.
-      placeholder: https://www.example.com/logo.png
-    validations:
-      required: true
+  # - type: input
+  #   attributes:
+  #     label: Logo URL
+  #     description: Please provide a URL to your organization's logo.
+  #     placeholder: https://www.example.com/logo.png
+  #   validations:
+  #     required: true
 
   
   # - type: markdown
