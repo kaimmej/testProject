@@ -17,7 +17,9 @@ body:
         We will review your submission and get back to you as soon as possible.
 
 
-  
+  - type: markdown
+    attributes:
+      value: "## Org information"  
   - type: input
     attributes:
       label: Organization Name
@@ -47,26 +49,7 @@ body:
       default: 0
     validations:
       required: true
-  - type: dropdown
-    attributes:
-      label: Industry Specialization
-      multiple: true
-      options:
-        - Software and Technology
-        - Business Services
-        - Consumer Services
-        - Education
-        - Financial Services
-        - Energy and Utilities
-        - Government
-        - Public Sector
-        - Healthcare
-        - Media and Entertainment
-        - Retail
-        - Telecommunications
-      default: 0
-    validations:
-      required: true
+
   - type: textarea
     attributes:
       label: Business description
@@ -112,12 +95,32 @@ body:
 
   - type: markdown
     attributes:
-      value: "# What is your product and specialty? "
+      value: "## What is your product and specialty? "
   - type: markdown
     attributes:
       value: |
         What does your organization specialize in? 
         What products and services do you offer to the OpenSearch community?
+  - type: dropdown
+    attributes:
+      label: Industry Specialization
+      multiple: true
+      options:
+        - Software and Technology
+        - Business Services
+        - Consumer Services
+        - Education
+        - Financial Services
+        - Energy and Utilities
+        - Government
+        - Public Sector
+        - Healthcare
+        - Media and Entertainment
+        - Retail
+        - Telecommunications
+      default: 0
+    validations:
+      required: true 
   - type: dropdown
     attributes:
       label: OpenSearch Specialty
