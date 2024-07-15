@@ -143,14 +143,15 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: "## Logo and Branding "
-  - type: markdown
-    attributes:
-      value: |
-        We use the logo and branding to create your partner page.
-        Please provide the following assets.
+  # - type: markdown
+  #   attributes:
+  #     value: "## Logo and Branding "
+  # - type: markdown
+  #   attributes:
+  #     value: |
+  #       We use the logo and branding to create your partner page.
+  #       Please provide the following assets.
+
   # - type: markdown
   #   attributes:
   #     value: "<img src="Assets/ExampleLogo.png" alt="Logo-Example" width="200"/>"
