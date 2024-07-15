@@ -164,14 +164,13 @@ body:
       description: Please provide a URL to your organization's logo.
       placeholder: Small Logo
     validations:
-      required: false
+      required: true 
   - type: input
     attributes:
-      label: Large Logo
-      description: Please provide a URL to your organization's logo.
-      placeholder: Large Logo
+      label: Favicon
+      placeholder: Favicon
     validations:
-      required: false
+      required: true
 
   - type: markdown
     attributes:
