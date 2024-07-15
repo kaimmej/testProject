@@ -25,7 +25,13 @@ body:
       placeholder: Example Inc.
     validations:
       required: true
-  
+  - type: textarea
+    attributes:
+      label: Main office location
+      description: Main office location or address (if applicable)
+      placeholder: City, Country
+    validations:
+      required: true   
   - type: textarea
     attributes:
       label: Business description
@@ -33,13 +39,23 @@ body:
       placeholder: We are a ...
     validations:
       required: true
-  - type: textarea
+  - type: dropdown
     attributes:
-      label: Product description
-      description: A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
-      placeholder: We offer ...
+      label: What regions of the world do you serve?
+      multiple: true
+      options:
+        - Global
+        - North America
+        - South America
+        - Europe
+        - Asia Pacific
+        - Middle East
+        - Africa
+        - Australia
+      default: 0
     validations:
-      required: false
+      required: true
+
   - type: input
     attributes:
       label: URL 
@@ -60,30 +76,16 @@ body:
       placeholder: (xxx) xxx-xxxx (Where can customers contact you?)
     validations:
       required: false
+
+      
   - type: textarea
     attributes:
-      label: Main office location
-      description: Main office location or address (if applicable)
-      placeholder: City, Country
+      label: Product description
+      description: A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
+      placeholder: We offer ...
     validations:
-      required: true 
-  - type: dropdown
-    attributes:
-      label: Regions Served
-      description: What regions of the world do you serve?
-      multiple: true
-      options:
-        - Global
-        - North America
-        - South America
-        - Europe
-        - Asia Pacific
-        - Middle East
-        - Africa
-        - Australia
-      default: 0
-    validations:
-      required: true
+      required: false
+
 
   
   # - type: markdown
