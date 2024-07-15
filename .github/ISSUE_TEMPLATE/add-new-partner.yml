@@ -149,9 +149,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        We use the logo and branding to create your partner page.
-        Please provide the following assets.
-        Either provide a URL to the assets or upload them as a comment to this issue. 
+        We use the logo and branding to create your partner page and display your organization's information.
+        Either provide a URL to your logo or attach your logo to this issue.
 
   # - type: markdown
   #   attributes:
@@ -161,8 +160,7 @@ body:
   - type: input
     attributes:
       label: Logo 
-      description: Please provide a URL to your organization's logo.
-      placeholder: Small Logo
+      placeholder: Logo
     validations:
       required: true 
   - type: input
