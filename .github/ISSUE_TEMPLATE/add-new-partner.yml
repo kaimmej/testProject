@@ -162,13 +162,26 @@ body:
     attributes:
       label: Logo 
       description: Please provide a URL to your organization's logo.
-      placeholder: https://www.example.com/logo.png
+      placeholder: Small Logo
     validations:
       required: false
   - type: input
     attributes:
       label: Large Logo
       description: Please provide a URL to your organization's logo.
-      placeholder: https://www.example.com/logo.png
+      placeholder: Large Logo
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "## Additional Information "
+  - type: markdown
+    attributes:
+      value: |
+        Provide any additional content that you would like to include on your partner page.
+  - type: textarea
+    attributes:
+      label: Additional Information
     validations:
       required: false
