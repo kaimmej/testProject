@@ -36,7 +36,8 @@ body:
   - type: textarea
     attributes:
       label: Product description
-      placeholder: A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
+      description: A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
+      placeholder: We offer ...
     validations:
       required: false
   - type: input
@@ -50,19 +51,39 @@ body:
   - type: input
     attributes:
       label: Contact Email
-      description: Where can customers contact you? 
-      placeholder: Info@example.com
+      placeholder: Info@example.com (Where can customers contact you?)
     validations:
       required: true
   - type: input
     attributes:
       label: Contact Phone
-      description: Where can customers contact you? 
-      placeholder: (xxx) xxx-xxxx
+      placeholder: (xxx) xxx-xxxx (Where can customers contact you?)
     validations:
       required: false
-  
-  
+  - type: textarea
+    attributes:
+      label: Main office location
+      description: Main office location or address (if applicable)
+      placeholder: City, Country
+    validations:
+      required: true 
+  - type: dropdown
+    attributes:
+      label: Regions Served
+      description: What regions of the world do you serve?
+      multiple: true
+      options:
+        - Global
+        - North America
+        - South America
+        - Europe
+        - Asia Pacific
+        - Middle East
+        - Africa
+        - Australia
+      default: Global
+    validations:
+      required: true
   
   
   # - type: markdown
