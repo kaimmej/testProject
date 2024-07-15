@@ -31,13 +31,6 @@ body:
       placeholder: City, Country
     validations:
       required: true   
-  - type: textarea
-    attributes:
-      label: Business description
-      description: A clear and concise description of your business. We will use this to help create your partner page.
-      placeholder: We are a ...
-    validations:
-      required: true
   - type: dropdown
     attributes:
       label: What regions of the world do you serve?
@@ -51,6 +44,47 @@ body:
         - Middle East
         - Africa
         - Australia
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Industry Specialization
+      multiple: true
+      options:
+        - Software and Technology
+        - Business Services
+        - Consumer Services
+        - Education
+        - Financial Services
+        - Energy and Utilities
+        - Government
+        - Public Sector
+        - Healthcare
+        - Media and Entertainment
+        - Retail
+        - Telecommunications
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Business description
+      description: A clear and concise description of your business. We will use this to help create your partner page.
+      placeholder: We are a ...
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Business Type
+      multiple: true
+      options:
+        - Consultant
+        - (MSR) Managed Service Provider
+        - (ISV) Independent Software Vendor
+        - Professional Services
+        - Training
+
       default: 0
     validations:
       required: true
