@@ -120,13 +120,13 @@ body:
       default: 0
     validations:
       required: true 
-  - type: textarea
-    attributes:
-      label: Product description
-      description:A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
-      placeholder: We offer...
-    validations:
-      required: true
+  # - type: textarea
+  #   attributes:
+  #     label: Product description
+  #     description:A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
+  #     placeholder: We offer...
+  #   validations:
+  #     required: true
   # - type: dropdown
   #   attributes:
   #     label: OpenSearch Specialty
