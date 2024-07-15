@@ -49,7 +49,6 @@ body:
       default: 0
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: Business description
@@ -67,7 +66,6 @@ body:
         - (ISV) Independent Software Vendor
         - Professional Services
         - Training
-
       default: 0
     validations:
       required: true
@@ -92,6 +90,7 @@ body:
       placeholder: (xxx) xxx-xxxx (Where can customers contact you?)
     validations:
       required: false
+
 
   - type: markdown
     attributes:
@@ -121,24 +120,45 @@ body:
       default: 0
     validations:
       required: true 
+  - type: textarea
+    attributes:
+      label: Product description
+      description:A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
+      placeholder: We offer...
+    validations:
+      required: true
   - type: dropdown
     attributes:
       label: OpenSearch Specialty
       multiple: true
       options:
-        - Global
-        - North America
-        - South America
-        - Europe
-        - Asia Pacific
-        - Middle East
-        - Africa
-        - Australia
+        - Search
+        - Observability
+        - Security
+        - Logs
+        - Analytics
+        - Machine Learning & AI
+        - GenAI
       default: 0
     validations:
       required: true
 
-
+  - type: markdown
+    attributes:
+      value: "## Logo and Branding "
+  - type: markdown
+    attributes:
+      value: |
+        We use the logo and branding to create your partner page.
+        Please provide the following assets.
+  <img src="Assets/ExampleLogo.png" alt="Logo-Example" width="200"/>
+  - type: input
+    attributes:
+      label: Logo URL
+      description: Please provide a URL to your organization's logo.
+      placeholder: https://www.example.com/logo.png
+    validations:
+      required: true
 
   
   # - type: markdown
