@@ -151,7 +151,10 @@ body:
       value: |
         We use the logo and branding to create your partner page.
         Please provide the following assets.
-  <img src="Assets/ExampleLogo.png" alt="Logo-Example" width="200"/>
+  - type: markdown
+    attributes:
+      value: "<img src="Assets/ExampleLogo.png" alt="Logo-Example" width="200"/>"
+  
   - type: input
     attributes:
       label: Logo URL
