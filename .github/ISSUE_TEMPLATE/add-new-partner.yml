@@ -155,7 +155,8 @@ body:
 
   - type: markdown
     attributes:
-      value: "![Logo-Example](https://www.example.png){: width='200px' }"
+      value: "![Logo-Example](https://www.example.png)"
+      # value: "![Logo-Example](https://www.example.png){: width='200px' }"
   
   - type: input
     attributes:
