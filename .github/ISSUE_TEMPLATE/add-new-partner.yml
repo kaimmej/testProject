@@ -33,7 +33,12 @@ body:
       placeholder: We are a ...
     validations:
       required: true
-
+  - type: textarea
+    attributes:
+      label: Product description
+      placeholder: A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
+    validations:
+      required: false
   - type: input
     attributes:
       label: URL 
@@ -49,35 +54,38 @@ body:
       placeholder: Info@example.com
     validations:
       required: true
-  
-  
-  
-  
-  
-  - type: markdown
+  - type: input
     attributes:
-      value: "-"
-  - type: markdown
-    attributes:
-      value: "# Internal Contact Information"
-  - type: markdown
-    attributes:
-      value: |
-        Who should we reach out to in case we need help updating your companies profile? 
-        This information is not displayed on the site and never shared with the public.
+      label: Contact Phone
+      description: Where can customers contact you? 
+      placeholder: (xxx) xxx-xxxx
+    validations:
+      required: false
+  
+  
+  
+  
+  # - type: markdown
+  #   attributes:
+  #     value: "# Internal Contact Information"
+  # - type: markdown
+  #   attributes:
+  #     value: |
+  #       Who should we reach out to in case we need help updating your companies profile? 
+  #       This information is not displayed on the site and never shared with the public.
 
-  - type: input
-    attributes:
-      label: Name
-      placeholder: Jon Smith
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Email
-      placeholder: JonSmith@example.com
-    validations:
-      required: true
+  # - type: input
+  #   attributes:
+  #     label: Name
+  #     placeholder: Jon Smith
+  #   validations:
+  #     required: true
+  # - type: input
+  #   attributes:
+  #     label: Email
+  #     placeholder: JonSmith@example.com
+  #   validations:
+  #     required: true
 
 
 
