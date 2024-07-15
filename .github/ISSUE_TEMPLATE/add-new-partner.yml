@@ -191,7 +191,20 @@ body:
       placeholder: /facebook.com/example
     validations:
       required: false
-
+  
+  - type: markdown
+    attributes:
+      value: "## Blog posts and Articles"
+  - type: markdown
+    attributes:
+      value: |
+        Add links to you latest three blog posts that are relevant for the OpenSearch Project audience. 
+  - type: textarea
+    attributes:
+      label: Blog posts
+      placeholder: [Blog Post 1](https://www.example.com), [Blog Post 2](https://www.example.com), [Blog Post 3](https://www.example.com)
+    validations:
+      required: false
 
   - type: markdown
     attributes:
@@ -200,6 +213,7 @@ body:
     attributes:
       value: |
         Provide any additional content that you would like to include on your partner page.
+        You may paste rich text, images, or links to videos.
   - type: textarea
     attributes:
       label: Additional Information
