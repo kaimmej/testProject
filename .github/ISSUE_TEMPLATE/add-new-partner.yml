@@ -151,7 +151,7 @@ body:
       value: |
         We use the logo and branding to create your partner page.
         Please provide the following assets.
-        Either provide a URL to the assets or upload them as a comment to this issue.
+        Either provide a URL to the assets or upload them as a comment to this issue. 
 
   # - type: markdown
   #   attributes:
@@ -165,7 +165,7 @@ body:
       placeholder: https://www.example.com/logo.png
     validations:
       required: false
-        - type: input
+  - type: input
     attributes:
       label: Large Logo
       description: Please provide a URL to your organization's logo.
