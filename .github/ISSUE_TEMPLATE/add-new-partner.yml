@@ -151,49 +151,23 @@ body:
       value: |
         We use the logo and branding to create your partner page.
         Please provide the following assets.
+        Either provide a URL to the assets or upload them as a comment to this issue.
 
-  # - type: markdown
-  #   attributes:
-  #     value: "<img src="https://www.example.png" alt="Logo-Example" width="200"/>"
+  - type: markdown
+    attributes:
+      value: "![Logo-Example](https://www.example.png){: width='200px' }"
   
   - type: input
     attributes:
-      label: Logo URL
+      label: Logo 
       description: Please provide a URL to your organization's logo.
       placeholder: https://www.example.com/logo.png
     validations:
-      required: true
-
-  
-  # - type: markdown
-  #   attributes:
-  #     value: "# Internal Contact Information"
-  # - type: markdown
-  #   attributes:
-  #     value: |
-  #       Who should we reach out to in case we need help updating your companies profile? 
-  #       This information is not displayed on the site and never shared with the public.
-
-  # - type: input
-  #   attributes:
-  #     label: Name
-  #     placeholder: Jon Smith
-  #   validations:
-  #     required: true
-  # - type: input
-  #   attributes:
-  #     label: Email
-  #     placeholder: JonSmith@example.com
-  #   validations:
-  #     required: true
-
-
-
-
-  # - type: dropdown
-  #   attributes:
-  #     label: OpenSearch Specialty 
-  #     description: Where can customers contact you? 
-  #     placeholder: Info@example.com
-  #   validations:
-  #     required: true
+      required: false
+        - type: input
+    attributes:
+      label: Large Logo
+      description: Please provide a URL to your organization's logo.
+      placeholder: https://www.example.com/logo.png
+    validations:
+      required: false
