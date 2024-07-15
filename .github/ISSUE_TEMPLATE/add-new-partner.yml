@@ -81,7 +81,7 @@ body:
         - Middle East
         - Africa
         - Australia
-      default: Global
+    default: Global
     validations:
       required: true
   
