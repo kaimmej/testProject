@@ -127,21 +127,21 @@ body:
       placeholder: We offer...
     validations:
       required: true
-  - type: dropdown
-    attributes:
-      label: OpenSearch Specialty
-      multiple: true
-      options:
-        - Search
-        - Observability
-        - Security
-        - Logs
-        - Analytics
-        - Machine Learning & AI
-        - GenAI
-      default: 0
-    validations:
-      required: true
+  # - type: dropdown
+  #   attributes:
+  #     label: OpenSearch Specialty
+  #     multiple: true
+  #     options:
+  #       - Search
+  #       - Observability
+  #       - Security
+  #       - Logs
+  #       - Analytics
+  #       - Machine Learning & AI
+  #       - GenAI
+  #     default: 0
+  #   validations:
+  #     required: true
 
   # - type: markdown
   #   attributes:
