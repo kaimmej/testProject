@@ -67,23 +67,23 @@ body:
       placeholder: City, Country
     validations:
       required: true 
-  - type: dropdown
-    attributes:
-      label: Regions Served
-      description: What regions of the world do you serve?
-      multiple: true
-      options:
-        - Global
-        - North America
-        - South America
-        - Europe
-        - Asia Pacific
-        - Middle East
-        - Africa
-        - Australia
-    default: Global
-    validations:
-      required: true
+  # - type: dropdown
+  #   attributes:
+  #     label: Regions Served
+  #     description: What regions of the world do you serve?
+  #     multiple: true
+  #     options:
+  #       - Global
+  #       - North America
+  #       - South America
+  #       - Europe
+  #       - Asia Pacific
+  #       - Middle East
+  #       - Africa
+  #       - Australia
+  #   default: Global
+  #   validations:
+  #     required: true
   
   
   # - type: markdown
