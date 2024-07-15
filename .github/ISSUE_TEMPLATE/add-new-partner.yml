@@ -67,24 +67,35 @@ body:
       placeholder: City, Country
     validations:
       required: true 
-  - type: dropdown
-    attributes:
-      label: Regions Served
-      description: What regions of the world do you serve?
-      multiple: true
-      options:
-        - Global
-        - North America
-        - South America
-        - Europe
-        - Asia Pacific
-        - Middle East
-        - Africa
-        - Australia
-      default: 0
+  # - type: dropdown
+  #   attributes:
+  #     label: Regions Served
+  #     description: What regions of the world do you serve?
+  #     multiple: true
+  #     options:
+  #       - Global
+  #       - North America
+  #       - South America
+  #       - Europe
+  #       - Asia Pacific
+  #       - Middle East
+  #       - Africa
+  #       - Australia
+  #     default: 0
+  #     validations:
+  #       required: true
+    - type: dropdown
+      id: download
+      attributes:
+        label: How did you download the software?
+        options:
+          - Built from source
+          - Homebrew
+          - MacPorts
+          - apt-get
+        default: 0
       validations:
         required: true
-  
   
   # - type: markdown
   #   attributes:
