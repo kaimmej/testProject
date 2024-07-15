@@ -1,5 +1,5 @@
 name: 🤝 Become a Partner
-description: Become an OpenSearch Partner
+description: Become a Partner
 title: "[PARTNER] {{ Company name }} "
 labels: ['Partner/new-Partner, untriaged']
 projects: ["testProject/Partners"]
@@ -9,7 +9,7 @@ projects: ["testProject/Partners"]
 body:
   - type: markdown
     attributes:
-      value: "# Become an OpenSearch Partner! 🎉"
+      value: "# Become a Partner! 🎉"
   - type: markdown
     attributes:
       value: |
