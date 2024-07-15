@@ -49,9 +49,16 @@ body:
       placeholder: Info@example.com
     validations:
       required: true
+  
+  
+  
+  
+  
   - type: markdown
     attributes:
-      value: "---"
+      value: "
+      
+      "
   - type: markdown
     attributes:
       value: "# Internal Contact Information"
