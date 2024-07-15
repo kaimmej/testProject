@@ -175,6 +175,29 @@ body:
 
   - type: markdown
     attributes:
+      value: "## Social Media"
+  - type: input
+    attributes:
+      label: Twitter 
+      placeholder: /twitter.com/example
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: LinkedIn 
+      placeholder: /linkedin.com/example
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Facebook 
+      placeholder: /facebook.com/example
+    validations:
+      required: false
+
+
+  - type: markdown
+    attributes:
       value: "## Additional Information "
   - type: markdown
     attributes:
