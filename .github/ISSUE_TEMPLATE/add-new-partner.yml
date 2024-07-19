@@ -16,81 +16,81 @@ body:
         We will review your submission and get back to you as soon as possible.
 
 
-  - type: markdown
-    attributes:
-      value: "## Org information"  
-  - type: input
-    attributes:
-      label: Organization Name
-      description: Please let us know the exact business name
-      placeholder: Example Inc.
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Main office location
-      placeholder: City, Country
-    validations:
-      required: true   
-  - type: dropdown
-    attributes:
-      label: What regions of the world do you serve?
-      description: Select all that apply
-      multiple: true
-      options:
-        - Global
-        - North America
-        - South America
-        - Europe
-        - Asia Pacific
-        - Middle East
-        - Africa
-        - Australia
-      default: 0
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Business description
-      description: A clear and concise description of your business. We will use this to help create your partner page.
-      placeholder: We are a ...
-    validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: Business Type
-      description: Select all that apply
-      multiple: true
-      options:
-        - Consultant
-        - (MSR) Managed Service Provider
-        - (ISV) Independent Software Vendor
-        - Professional Services
-        - Training
-      default: 0
-    validations:
-      required: true
+  # - type: markdown
+  #   attributes:
+  #     value: "## Org information"  
+  # - type: input
+  #   attributes:
+  #     label: Organization Name
+  #     description: Please let us know the exact business name
+  #     placeholder: Example Inc.
+  #   validations:
+  #     required: true
+  # - type: input
+  #   attributes:
+  #     label: Main office location
+  #     placeholder: City, Country
+  #   validations:
+  #     required: true   
+  # - type: dropdown
+  #   attributes:
+  #     label: What regions of the world do you serve?
+  #     description: Select all that apply
+  #     multiple: true
+  #     options:
+  #       - Global
+  #       - North America
+  #       - South America
+  #       - Europe
+  #       - Asia Pacific
+  #       - Middle East
+  #       - Africa
+  #       - Australia
+  #     default: 0
+  #   validations:
+  #     required: true
+  # - type: textarea
+  #   attributes:
+  #     label: Business description
+  #     description: A clear and concise description of your business. We will use this to help create your partner page.
+  #     placeholder: We are a ...
+  #   validations:
+  #     required: true
+  # - type: dropdown
+  #   attributes:
+  #     label: Business Type
+  #     description: Select all that apply
+  #     multiple: true
+  #     options:
+  #       - Consultant
+  #       - (MSR) Managed Service Provider
+  #       - (ISV) Independent Software Vendor
+  #       - Professional Services
+  #       - Training
+  #     default: 0
+  #   validations:
+  #     required: true
 
-  - type: input
-    attributes:
-      label: URL 
-      description: Please provide the URL to your organization's website.
-      placeholder: https://www.example.com
-    validations:
-      required: true
+  # - type: input
+  #   attributes:
+  #     label: URL 
+  #     description: Please provide the URL to your organization's website.
+  #     placeholder: https://www.example.com
+  #   validations:
+  #     required: true
 
-  - type: input
-    attributes:
-      label: Contact Email
-      placeholder: Info@example.com (Where can customers contact you?)
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Contact Phone
-      placeholder: (xxx) xxx-xxxx (Where can customers contact you?)
-    validations:
-      required: false
+  # - type: input
+  #   attributes:
+  #     label: Contact Email
+  #     placeholder: Info@example.com (Where can customers contact you?)
+  #   validations:
+  #     required: true
+  # - type: input
+  #   attributes:
+  #     label: Contact Phone
+  #     placeholder: (xxx) xxx-xxxx (Where can customers contact you?)
+  #   validations:
+  #     required: false
 
 
   # - type: markdown
