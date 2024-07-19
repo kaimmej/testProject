@@ -8,12 +8,12 @@ body:
   - type: markdown
     attributes:
       value: "# Become an OpenSearch Partner! 🎉"
-  - type: markdown
-    attributes:
-      value: |
-        Welcome!
-        Please take the time to fill out this new partner request.
-        We will review your submission and get back to you as soon as possible.
+  # - type: markdown
+  #   attributes:
+  #     value: |
+  #       Welcome!
+  #       Please take the time to fill out this new partner request.
+  #       We will review your submission and get back to you as soon as possible.
 
 
   # - type: markdown
