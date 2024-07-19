@@ -1,18 +1,18 @@
-name: 🤝 Become a Partner
-description: Become a Partner
+name: 🎉 Become an OpenSearch Partner
+description: Become an OpenSearch Partner
 title: "[PARTNER] {{ Company name }} "
-labels: ['Partner/new-Partner, untriaged']
-projects: ["testProject/Partners"]
-
+labels: ['enhancement, untriaged']
+assignees: ''
 
 
 body:
   - type: markdown
     attributes:
-      value: "# Become a Partner! 🎉"
+      value: "# Become an OpenSearch Partner! 🎉"
   - type: markdown
     attributes:
       value: |
+        Welcome!
         Please take the time to fill out this new partner request.
         We will review your submission and get back to you as soon as possible.
 
@@ -170,7 +170,6 @@ body:
     validations:
       required: true
 
-
   - type: markdown
     attributes:
       value: "## Social Media"
@@ -192,13 +191,6 @@ body:
       placeholder: /facebook.com/example
     validations:
       required: false
-  - type: input
-    attributes:
-      label: Github 
-      placeholder: /github.com/example
-    validations:
-      required: false 
-  
   
   - type: markdown
     attributes:
