@@ -1,6 +1,7 @@
 name: 🎉 Become an OpenSearch Partner
 description: Become an OpenSearch Partner
 title: "[PARTNER] {{ Company name }} "
+labels: ['enhancement, untriaged']
 assignees: ''
 
 
