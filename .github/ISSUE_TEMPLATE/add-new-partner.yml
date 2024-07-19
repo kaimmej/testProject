@@ -93,127 +93,127 @@ body:
       required: false
 
 
-  - type: markdown
-    attributes:
-      value: "## What is your product and specialty? "
-  - type: markdown
-    attributes:
-      value: |
-        What does your organization specialize in? 
-        What products and services do you offer to the OpenSearch community?
-  - type: dropdown
-    attributes:
-      label: Industry Specialization
-      description: Select all that apply
-      multiple: true
-      options:
-        - Software and Technology
-        - Business Services
-        - Consumer Services
-        - Education
-        - Financial Services
-        - Energy and Utilities
-        - Government
-        - Public Sector
-        - Healthcare
-        - Media and Entertainment
-        - Retail
-        - Telecommunications
-      default: 0
-    validations:
-      required: true 
-  - type: textarea
-    attributes:
-      label: Product description
-      description: A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
-      placeholder: We offer...
-    validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: OpenSearch Specialty
-      description: Select all that apply
-      multiple: true
-      options:
-        - Search
-        - Observability
-        - Security
-        - Logs
-        - Analytics
-        - Machine Learning & AI
-        - GenAI
-      default: 0
-    validations:
-      required: true
+  # - type: markdown
+  #   attributes:
+  #     value: "## What is your product and specialty? "
+  # - type: markdown
+  #   attributes:
+  #     value: |
+  #       What does your organization specialize in? 
+  #       What products and services do you offer to the OpenSearch community?
+  # - type: dropdown
+  #   attributes:
+  #     label: Industry Specialization
+  #     description: Select all that apply
+  #     multiple: true
+  #     options:
+  #       - Software and Technology
+  #       - Business Services
+  #       - Consumer Services
+  #       - Education
+  #       - Financial Services
+  #       - Energy and Utilities
+  #       - Government
+  #       - Public Sector
+  #       - Healthcare
+  #       - Media and Entertainment
+  #       - Retail
+  #       - Telecommunications
+  #     default: 0
+  #   validations:
+  #     required: true 
+  # - type: textarea
+  #   attributes:
+  #     label: Product description
+  #     description: A clear and concise description of your product(s) and/or services offered to the OpenSearch community.
+  #     placeholder: We offer...
+  #   validations:
+  #     required: true
+  # - type: dropdown
+  #   attributes:
+  #     label: OpenSearch Specialty
+  #     description: Select all that apply
+  #     multiple: true
+  #     options:
+  #       - Search
+  #       - Observability
+  #       - Security
+  #       - Logs
+  #       - Analytics
+  #       - Machine Learning & AI
+  #       - GenAI
+  #     default: 0
+  #   validations:
+  #     required: true
 
-  - type: markdown
-    attributes:
-      value: "## Logo and Branding "
-  - type: markdown
-    attributes:
-      value: |
-        We use the logo and branding to create your partner page and display your organization's information.
-        Either provide a URL to your logo or attach your logo to this issue.
+  # - type: markdown
+  #   attributes:
+  #     value: "## Logo and Branding "
+  # - type: markdown
+  #   attributes:
+  #     value: |
+  #       We use the logo and branding to create your partner page and display your organization's information.
+  #       Either provide a URL to your logo or attach your logo to this issue.
   
-  - type: input
-    attributes:
-      label: Logo 
-      placeholder: Logo
-    validations:
-      required: true 
-  - type: input
-    attributes:
-      label: Favicon
-      description: Square image - preferably 192x192 pixels
-      placeholder: Favicon
-    validations:
-      required: true
+  # - type: input
+  #   attributes:
+  #     label: Logo 
+  #     placeholder: Logo
+  #   validations:
+  #     required: true 
+  # - type: input
+  #   attributes:
+  #     label: Favicon
+  #     description: Square image - preferably 192x192 pixels
+  #     placeholder: Favicon
+  #   validations:
+  #     required: true
 
-  - type: markdown
-    attributes:
-      value: "## Social Media"
-  - type: input
-    attributes:
-      label: Twitter 
-      placeholder: /twitter.com/example
-    validations:
-      required: false
-  - type: input
-    attributes:
-      label: LinkedIn 
-      placeholder: /linkedin.com/example
-    validations:
-      required: false
-  - type: input
-    attributes:
-      label: Facebook 
-      placeholder: /facebook.com/example
-    validations:
-      required: false
+  # - type: markdown
+  #   attributes:
+  #     value: "## Social Media"
+  # - type: input
+  #   attributes:
+  #     label: Twitter 
+  #     placeholder: /twitter.com/example
+  #   validations:
+  #     required: false
+  # - type: input
+  #   attributes:
+  #     label: LinkedIn 
+  #     placeholder: /linkedin.com/example
+  #   validations:
+  #     required: false
+  # - type: input
+  #   attributes:
+  #     label: Facebook 
+  #     placeholder: /facebook.com/example
+  #   validations:
+  #     required: false
   
-  - type: markdown
-    attributes:
-      value: "## Blog posts and Articles"
-  - type: markdown
-    attributes:
-      value: |
-        Add links to you latest three blog posts that are relevant for the OpenSearch Project audience. 
-  - type: textarea
-    attributes:
-      label: Blog posts
-    validations:
-      required: false
+  # - type: markdown
+  #   attributes:
+  #     value: "## Blog posts and Articles"
+  # - type: markdown
+  #   attributes:
+  #     value: |
+  #       Add links to you latest three blog posts that are relevant for the OpenSearch Project audience. 
+  # - type: textarea
+  #   attributes:
+  #     label: Blog posts
+  #   validations:
+  #     required: false
 
-  - type: markdown
-    attributes:
-      value: "## Additional Information "
-  - type: markdown
-    attributes:
-      value: |
-        Provide any additional content that you would like to include on your partner page.
-        You may paste rich text, images, or links to videos.
-  - type: textarea
-    attributes:
-      label: Additional Information
-    validations:
-      required: false
+  # - type: markdown
+  #   attributes:
+  #     value: "## Additional Information "
+  # - type: markdown
+  #   attributes:
+  #     value: |
+  #       Provide any additional content that you would like to include on your partner page.
+  #       You may paste rich text, images, or links to videos.
+  # - type: textarea
+  #   attributes:
+  #     label: Additional Information
+  #   validations:
+  #     required: false
