@@ -5,7 +5,6 @@ labels: ['enhancement, untriaged']
 projects: ["opensearch-project/Website Update Project"]
 
 
-
 body:
   - type: markdown
     attributes:
