@@ -37,7 +37,7 @@ body:
       description: Select all that apply
       multiple: true
       options:
-        - techncal
+        - technical
         - community
         - partners
         - events
@@ -52,11 +52,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Provide any additional content that you would like to include on your partner page.
-        You may paste rich text, images, or links to videos.
+        Provide any additional info or context
   - type: textarea
     attributes:
-      label: Additional Information
+      label: " "
     validations:
       required: false
 
