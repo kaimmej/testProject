@@ -19,22 +19,6 @@ body:
       placeholder: Title
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: "## Context and Metadata "
-  - type: markdown
-    attributes:
-      value: |
-        Provide any additional info or context
-  - type: input
-    attributes:
-      label: Expected Publication Date
-      description: When will this go out?
-      placeholder: mm/dd/yyyy
-    validations:
-      required: false 
-
   - type: dropdown
     attributes:
       label: Blog Post Category
@@ -49,11 +33,32 @@ body:
       default: 0
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: " "
+
+  - type: markdown
+    attributes:
+      value: "## Additional context "
+  - type: markdown
+    attributes:
+      value: |
+        Provide any additional info or context
+  - type: input
+    attributes:
+      label: Expected Publication Date
+      description: When will this go out?
+      placeholder: mm/dd/yyyy
+    validations:
+      required: false 
+
+
 
 
   - type: textarea
     attributes:
-      label: info
+      label: Additional Info
+      description: Provide any additional context or content that you would like to include for this blog post.
     validations:
       required: false
 
