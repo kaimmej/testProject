@@ -29,6 +29,19 @@ body:
       placeholder: Title
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Authors Name
+      description: Who will write this?
+      placeholder: First Last
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Authors Email
+      placeholder: email@example.com
+    validations:
+      required: true
   - type: dropdown
     attributes:
       label: Blog Post Category
