@@ -4,6 +4,16 @@ title: "[BLOG] <title>"
 labels: ['new blog, enhancement, untriaged']
 projects: ["opensearch-project/Digital Marketing Content"]
 body:
+  - type: markdown
+    attributes:
+      value: "<br/> <br/> "
+  - type: markdown
+    attributes:
+      value: "## Required information "
+  - type: markdown
+    attributes:
+      value: |
+        Provide a rough description, the title, and the expected category of the blog post.
   - type: textarea
     attributes:
       label: Describe the blog post
