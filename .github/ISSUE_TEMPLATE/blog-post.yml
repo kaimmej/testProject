@@ -55,7 +55,7 @@ body:
         Provide any additional info or context
   - type: textarea
     attributes:
-      label: " "
+      label: info
     validations:
       required: false
 
