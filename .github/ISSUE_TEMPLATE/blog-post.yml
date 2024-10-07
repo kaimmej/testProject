@@ -4,9 +4,7 @@ title: "[BLOG] <title>"
 labels: ['new blog, enhancement, untriaged']
 projects: ["opensearch-project/Digital Marketing Content"]
 body:
-  - type: markdown
-    attributes:
-      value: "<br/>"
+
   - type: markdown
     attributes:
       value: "## Required information "
