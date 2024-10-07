@@ -12,7 +12,7 @@ body:
     validations:
       required: true
   
-  - type: textarea
+  - type: input
     attributes:
       label: Expected Title
       description: What might the title of this post be?
@@ -20,7 +20,10 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: markdown
+    attributes:
+      value: "## Context and Metadata "
+  - type: input
     attributes:
       label: Expected Publication Date
       description: When will this go out?
@@ -28,9 +31,6 @@ body:
     validations:
       required: false 
 
-  - type: markdown
-    attributes:
-      value: "## Category "
   - type: dropdown
     attributes:
       label: Blog Post Category
@@ -46,10 +46,6 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: "## Additional Information "
-  - type: markdown
     attributes:
       value: |
         Provide any additional info or context
