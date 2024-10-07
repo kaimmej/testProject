@@ -39,6 +39,12 @@ body:
       placeholder: email@example.com or Github profile
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Target Draft Date
+      placeholder: mm/dd/yyyy
+    validations:
+      required: false 
   - type: dropdown
     attributes:
       label: Blog Post Category
@@ -66,8 +72,7 @@ body:
         Provide any additional info or context
   - type: input
     attributes:
-      label: Expected Publication Date
-      description: When will this go out?
+      label: Target Publication Date
       placeholder: mm/dd/yyyy
     validations:
       required: false 
