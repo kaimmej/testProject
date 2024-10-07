@@ -35,7 +35,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "/n "
+      value: "<br/> "
 
   - type: markdown
     attributes:
