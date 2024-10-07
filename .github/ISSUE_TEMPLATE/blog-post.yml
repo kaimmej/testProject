@@ -32,14 +32,13 @@ body:
   - type: input
     attributes:
       label: Authors Name
-      description: Who will write this?
       placeholder: First Last
     validations:
       required: true
   - type: input
     attributes:
       label: Authors Email
-      placeholder: email@example.com
+      placeholder: email@example.com or Github profile
     validations:
       required: true
   - type: dropdown
