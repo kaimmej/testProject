@@ -1,0 +1,62 @@
+name: ✏️ New blog post
+description: Create a report to help us improve
+title: "[BLOG] <title>"
+labels: ['new blog, enhancement, untriaged']
+projects: ["opensearch-project/Digital Marketing Content"]
+body:
+  - type: textarea
+    attributes:
+      label: Describe the blog post
+      description: A clear and concise description of what subject the blog post will cover.
+      placeholder: What will it cover?
+    validations:
+      required: true
+  
+  - type: textarea
+    attributes:
+      label: Expected Title
+      description: What might the title of this post be?
+      placeholder: Title
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected Publication Date
+      description: When will this go out?
+      placeholder: mm/dd/yyyy
+    validations:
+      required: false 
+
+  - type: markdown
+    attributes:
+      value: "## Category "
+  - type: dropdown
+    attributes:
+      label: Blog Post Category
+      description: Select all that apply
+      multiple: true
+      options:
+        - techncal
+        - community
+        - partners
+        - events
+        - releases
+      default: 0
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Additional Information "
+  - type: markdown
+    attributes:
+      value: |
+        Provide any additional content that you would like to include on your partner page.
+        You may paste rich text, images, or links to videos.
+  - type: textarea
+    attributes:
+      label: Additional Information
+    validations:
+      required: false
+
