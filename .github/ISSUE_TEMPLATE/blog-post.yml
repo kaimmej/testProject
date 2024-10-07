@@ -23,6 +23,9 @@ body:
   - type: markdown
     attributes:
       value: "## Context and Metadata "
+    attributes:
+      value: |
+        Provide any additional info or context
   - type: input
     attributes:
       label: Expected Publication Date
@@ -46,9 +49,7 @@ body:
     validations:
       required: true
 
-    attributes:
-      value: |
-        Provide any additional info or context
+
   - type: textarea
     attributes:
       label: info
