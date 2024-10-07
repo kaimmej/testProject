@@ -6,7 +6,7 @@ projects: ["opensearch-project/Digital Marketing Content"]
 body:
   - type: markdown
     attributes:
-      value: "<br/> <br/> "
+      value: "<br/>"
   - type: markdown
     attributes:
       value: "## Required information "
