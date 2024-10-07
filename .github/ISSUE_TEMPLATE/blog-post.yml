@@ -35,7 +35,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: " "
+      value: "a "
 
   - type: markdown
     attributes:
